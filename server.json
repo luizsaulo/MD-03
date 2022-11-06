@@ -1,19 +1,20 @@
 {
-  "posts": [
+  "transactions": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-11-04T22:14:01.376Z"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "description": "Almoço",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 35,
+      "createdAt": "2022-11-04T22:15:01.376Z"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

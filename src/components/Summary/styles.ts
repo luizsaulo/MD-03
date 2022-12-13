@@ -32,7 +32,7 @@ export const SummaryCard = styled.div<SummaryCardProps>`
 
     strong {
         display: block;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         font-size: 2rem;
     }
 
